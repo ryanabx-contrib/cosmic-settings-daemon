@@ -8,6 +8,7 @@ pub mod modifier;
 pub use modifier::{Modifier, Modifiers, ModifiersDef};
 
 mod binding;
+mod gesture;
 pub use binding::Binding;
 
 pub mod sym;
